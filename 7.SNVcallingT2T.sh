@@ -1,3 +1,16 @@
+#Preparar el ambiente
+#Hacer copias de los archivos
+mkdir 7.SNVcallingT2T
+cd 7.SNVcallingT2T 
+cp /mnt/Timina/cgonzaga/resources/T2T_2.0/chm13v2.0.noMT.fa .
+cp /mnt/Timina/cgonzaga/resources/T2T_2.0/chm13v2.0.noMT.fa.fai .
+cp /mnt/Timina/cgonzaga/pmeza/PYM004/5.T2TAssembly/PYM004_5mc.T2T.pbmm2.bam .
+cp /mnt/Timina/cgonzaga/pmeza/PYM004/5.T2TAssembly/PYM004_5mc.T2T.pbmm2.bam.bai .
+cp /mnt/Timina/cgonzaga/pmeza/PYM005/5.T2TAssembly/PYM005_5mc.T2T.pbmm2.bam .
+cp /mnt/Timina/cgonzaga/pmeza/PYM005/5.T2TAssembly/PYM005_5mc.T2T.pbmm2.bam.bai .
+cp /mnt/Timina/cgonzaga/pmeza/PYM006/5.T2TAssembly/PYM006_5mc.T2T.pbmm2.bam .
+cp /mnt/Timina/cgonzaga/pmeza/PYM006/5.T2TAssembly/PYM006_5mc.T2T.pbmm2.bam.bai .
+
 #Correr DeepTrio
 module load singularity/3.7.0
 singularity run \
