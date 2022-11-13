@@ -1,2 +1,2 @@
-# PacBio-HiFi-Pipeline
+# PacBio-HiFi-Pipeline-Trio
 Thesis project
